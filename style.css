@@ -1,0 +1,137 @@
+
+
+
+body {
+	background: #444;
+	padding: 80px 0 0 0;
+}
+body,input,button {
+	font-family: 'Roboto', sans-serif;
+}
+
+
+header {
+	width:97.8%;
+	height: 80px;
+	position: fixed;
+	top: 0;
+	left: 0;
+	z-index: 5;
+	background: #25b99a;
+	padding:15px;
+	border-bottom-right-radius: 10px;
+	border-bottom-left-radius: 10px;
+	/*box shadow*/
+}
+
+header input {
+	width:100%;
+	height:50px;
+	float:left;
+	border: 0px;
+	text-indent: 20px;
+	border-top-left-radius: 5px;
+	border-bottom-left-radius: 5px;
+	border-top-right-radius: 25px;
+	border-bottom-right-radius: 25px;
+	font-size: 15px;
+	font-weight:400;
+	background: rgba{255,255,255,0.2};
+	
+	
+	/*box-shadow: none;*/
+	
+}
+
+
+header button {
+	width: 50px;
+	height: 53px;
+	top :15px;
+	right:13px;
+	z-index: 2px;
+	position: absolute;
+	border-radius: 25px;
+	cursor: pointer;
+	border:none;
+	background: #333;
+}
+
+#add {
+	font-size: 23px;
+	color: #fff;
+	
+}
+ul {
+	list-style-type: none;
+}
+.container {
+	width: 97%;
+	float: left;
+	padding: 15px;
+	/*background: #333;*/
+}
+
+ul.todoitem {
+	width: 95%;
+	float: left;
+	
+}
+
+ul.todoitem li {
+	width: 95%;
+	background: white;
+	height: 50px;
+	font-size: 14px;
+	font-weight: 500;
+	color: #333;
+	line-height: 22px;
+	position: relative;
+	float: left;
+	border-radius: 5px;
+	margin: 0 0 10px 0;
+	border-radius: 5px;
+	padding: 10px 50px 10px 10px;
+	background:white;
+}
+
+ul.todoitem li:last-of-type {
+	margin: 0;
+}
+
+ul.todoitem li.buttons {
+	position: absolute;
+	width: 100px;
+	height: 50px;
+	top: 0;
+	right: 0;
+	
+}
+ 
+
+
+ul.todoitem li button {
+	
+	width: 50px;
+	height: 25px;
+	border: none;
+	margin-right: 5px;
+	float: left;
+	background:  #25b99a; 
+}
+
+.del {
+	margin-left: 90%;
+}
+
+ul.todoitem#completed li {
+	background: green;
+	
+}
+
+
+
+
+
+
+

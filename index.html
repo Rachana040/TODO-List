@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>TODO List</title>
+		
+		<!-- Roboto font-->
+		<link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet"> 
+		<!-- Stylesheets-->
+		<script src="main.js"></script>
+		<link href="style.css" rel="stylesheet">
+	</head>
+	
+	<body>
+	
+		<header>
+			<input type="text" id="item" placeholder="Enter an activity..." >
+			<button id="addItem" onClick="additem();"><h1 id="add">+</h1></button>
+		</header>
+		
+		<br/>
+		<br/>
+		
+		<div class="container">
+		
+		
+		<!-- Uncompleted tasks-->
+		<ul class="todoitem" id="uncompleted"></ul>
+		
+		<!-- Completed tasks-->
+		<ul class="todoitem" id="completed"></ul>
+		
+		</div>
+	</body>
+</html>
